@@ -8,7 +8,7 @@
 - /api/articles/most-polular-of-the-week -> returns 3 authors that wrote the most articles last week. **get** 
 - /api/login -> login route nickname/password **post** 
 - /api/article -> create new article **post** 
-- /api/article -> edit new article **put**
+- /api/article -> edit article **put**
 - /api/article -> delete article **delete**
 
 ## Run
