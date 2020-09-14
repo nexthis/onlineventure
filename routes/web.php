@@ -11,9 +11,9 @@
 |
 */
 
-// $router->get('/', function () use ($router) {
-//     return view("home");
-// });
+$router->get('/', function () use ($router) {
+    return view("spa");
+});
 $router->group([ 'prefix' => 'api'],  function ($router) {
     $router->get('/articles','ArticlesController@index');
     $router->get('/article/{id}','ArticlesController@show');
