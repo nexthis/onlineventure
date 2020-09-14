@@ -21,7 +21,7 @@
  🥳
  
 ## Notes
-- in branches react it is simple to implement api
+- in branch react, there is a simple implementation of this API
 - CorsMiddleware is only for dev environment
 
 # Lumen PHP Framework
