@@ -35,13 +35,13 @@ export default [
   {
     path: Name.ShowArticle,
     exact: true,
-    auth: true,
+    auth: false,
     component: ShowArticle,
   },
   {
     path: Name.ShowUser,
     exact: true,
-    auth: true,
+    auth: false,
     component: ShowUser,
   },
 ];
