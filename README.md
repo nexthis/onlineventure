@@ -20,6 +20,9 @@
  6. php -S localhost:8000 -t public 
  🥳
  
+## Notes
+- in branches react it is simple to implement api
+- CorsMiddleware is only for dev environment
 
 # Lumen PHP Framework
 
