@@ -23,6 +23,7 @@
 ## Notes
 - in branch react, there is a simple implementation of this API
 - CorsMiddleware is only for dev environment
+- authentication system is only for demonstration use (jwt is better 😅)
 
 # Lumen PHP Framework
 
