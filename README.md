@@ -2,14 +2,14 @@
 
 ## Routes
 
-> /articles -> returns all articles **get**
-> /article/{id} -> returns article by id **get**
-> /articles/user/{name} -> returns article by user nickname **get**
-> /articles/most-polular-of-the-week -> returns 3 authors that wrote the most articles last week. **get**
-> /login -> login route nickname/password **post**
-> /article -> create new article **post**
-> /article -> edit new article **put**
-> /article -> delete new article **delete**
+/articles -> returns all articles **get** 
+/article/{id} -> returns article by id **get** 
+/articles/user/{name} -> returns article by user nickname **get** 
+/articles/most-polular-of-the-week -> returns 3 authors that wrote the most articles last week. **get** 
+/login -> login route nickname/password **post** 
+/article -> create new article **post** 
+/article -> edit new article **put**
+/article -> delete new article **delete**
 
 ## Run
 
