@@ -9,7 +9,7 @@
 - /api/login -> login route nickname/password **post** 
 - /api/article -> create new article **post** 
 - /api/article -> edit new article **put**
-- /api/article -> delete new article **delete**
+- /api/article -> delete article **delete**
 
 ## Run
 
