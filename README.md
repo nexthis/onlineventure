@@ -1,3 +1,26 @@
+# How to use
+
+## Routes
+
+> /articles -> returns all articles **get**
+> /article/{id} -> returns article by id **get**
+> /articles/user/{name} -> returns article by user nickname **get**
+> /articles/most-polular-of-the-week -> returns 3 authors that wrote the most articles last week. **get**
+> /login -> login route nickname/password **post**
+> /article -> create new article **post**
+> /article -> edit new article **put**
+> /article -> delete new article **delete**
+
+## Run
+
+ 1. composer install
+ 3. config your .env.example
+ 4. php artisan migrate
+ 5. php artisan db:seed --class=DatabaseSeeder
+ 6. php -S localhost:8000 -t public 
+ 🥳
+ 
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
