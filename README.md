@@ -1,3 +1,30 @@
+# How to use
+
+## Routes
+
+- /api/articles -> returns all articles **get** 
+- /api/article/{id} -> returns article by id **get** 
+- /api/articles/user/{name} -> returns article by user nickname **get** 
+- /api/articles/most-polular-of-the-week -> returns 3 authors that wrote the most articles last week. **get** 
+- /api/login -> login route nickname/password **post** 
+- /api/article -> create new article **post** 
+- /api/article -> edit new article **put**
+- /api/article -> delete article **delete**
+
+## Run
+
+ 1. composer install
+ 3. config your .env.example
+ 4. php artisan migrate
+ 5. php artisan db:seed --class=DatabaseSeeder
+ 6. php -S localhost:8000 -t public 
+ 🥳
+ 
+## Notes
+- in branch react, there is a simple implementation of this API
+- CorsMiddleware is only for dev environment
+- authentication system is only for demonstration use (jwt is better 😅)
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
