@@ -87,14 +87,13 @@ class ArticlesController extends Controller
         $top = DB::table("articles_users")
             ->where('created_at', '>=', explode(' ', $date))
             ->groupBy('user_id')
-            ->orderBy('user_id', 'asc')
             ->selectRaw('articles_users.*, count(articles_users.user_id) as score')
+            ->orderBy('score', 'desc')
             ->take(3)
             ->get();
         $ids = $top->map(function ($item) {
             return $item->user_id;
         })->toArray();
-
         return response()->json(User::whereIn('id', $ids)->get());
     }
 
